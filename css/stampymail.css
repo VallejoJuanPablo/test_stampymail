@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(3,112,181);
+    background: linear-gradient(90deg, rgba(3,112,181,1) 0%, rgba(60,201,182,1) 100%);
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+  }
+  
+  .login-box {
+    border-radius: 5%;
+    width: 420px;
+    height: 470px;
+    background: rgb(2, 112, 180);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .login-box .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+  
+  .login-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .login-box input[type="text"], .login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b80f22;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  .login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+  }
+  
+  .login-box input::placeholder {
+    color: #e0e3e4;
+  }
+  .login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+  }
+  
+  .login-box a:hover {
+    color: #fff;
+  }
+  
+  .button {
+    
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-rojo {
+    background-color: #ff1e69; /* Green */
+    
+}
+.button-verde {
+    background-color: #3dcbb6; /* Green */
+   
+}
+
+.button-azul {
+    background-color: #3fcef2; /* Green */
+
+}
+
+/*COLUMNAS*/
+.column-2 {
+    text-align: center;
+    float: left;
+    width: 16.6%;
+  }
+
+.column-4 {
+    text-align: center;
+    float: left;
+    width: 33.33%;
+  }
+  .column-6 {
+    text-align: center;
+    float: left;
+    width: 50%;
+  }
+  .column-8 {
+    text-align: center;
+    float: left;
+    width: 66.6%;
+  }
+  .column-10 {
+    text-align: center;
+    float: left;
+    width: 83.2%;
+  }
+
+  .column-12 {
+    text-align: center;
+    float: left;
+    width: 100%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
