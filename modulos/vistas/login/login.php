@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="./plugins/fontawesome-free/css/all.min.css">-->
   <!-- Theme style 
   <link rel="stylesheet" href="./dist/css/adminlte.min.css">-->
-  <link rel="stylesheet" href="./css/stampymail.css">
+  <link rel="stylesheet" href="./css/stampymail_login.css">
 </head>
 
 <body>
