@@ -262,15 +262,15 @@ tbody tr:nth-child(even) {
 }
 
 .img-1 {
-    background-image: url("../img/img1.jpg");
+    background-image: url("img/img1.jpg");
 }
 
 .img-2 {
-    background-image: url("../img/img2.jpg");
+    background-image: url("img/img2.jpg");
 }
 
 .img-3 {
-    background-image: url("../img/img3.jpg");
+    background-image: url("img/img3.jpg");
 }
 
 .summary-card {
@@ -322,7 +322,7 @@ tbody tr:nth-child(even) {
     border: 3px solid #efefef;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("../img/img1.jpg");
+    background-image: url("img/img1.jpg");
     margin-right: .7rem;
 }
 
