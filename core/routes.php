@@ -7,7 +7,7 @@ $pages = array(
     if(!empty($user)) {
         switch ($user->getAcceso()) {  
             case 1: //ADM
-                $pages2 = array('usuarios_abm' => array('url' => 'modulos/vistas/usuarios/abm.php', 'urljs' => array('modulos/vistas/usuarios/abm.js')),     
+                $pages2 = array('usuarios_lista' => array('url' => 'modulos/vistas/usuarios/usuarios_lista.php', 'urljs' => array('modulos/vistas/usuarios/usuarios_lista.js')),     
             );
         break;
              case 2: //USER 

@@ -10,12 +10,12 @@
     <div class="sidebar-menu">
         <ul>
             <li>
-                <a href="">
+            <a href="?p=usuarios_lista">
                     <span><i class="fa fa-users"></i></span>
                     <span>Usuarios</span></a>
             </li>
             <li>
-                <a href="">
+            <a href="./core/logout.php">
                     <span><i class="fa fa-sign-out"></i></span>
                     <span>Salir</span></a>
             </li>
