@@ -189,13 +189,22 @@ main {
 }
 
 .recent {
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .activity-grid {
     display: grid;
     grid-template-columns: 75% 25%;
     grid-column-gap: 1.5rem;
+}
+
+.header-user-card{
+    display: grid;
+    grid-template-columns:90% 10%;
+    grid-column-gap: 1.5rem;
+}
+.header-user-card .btn{
+   padding:1rem .5rem;
 }
 
 .user-grid {
@@ -252,11 +261,29 @@ tbody tr:nth-child(even) {
 }
 
 .badge {
-    padding: .2rem .1rem;
+    padding: .5rem 1rem;
+    border: none !important;
     border-radius: 20px;
     font-weight: 700;
     font-size: .7rem;
 }
+
+.badge.info {
+    
+    background: #6BB3FA;
+    color: #fff;
+}
+.badge.green {
+    
+    background: #027581;
+    color: #fff;
+}
+
+.badge.danger {
+    background: #FA6B6B;
+    color: #fff;
+}
+
 
 .badge.success {
     background: #DEF7EC;

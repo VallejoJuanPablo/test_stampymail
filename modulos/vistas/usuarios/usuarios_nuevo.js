@@ -5,7 +5,7 @@ $(document).ready(function () {
   
     function onInit() {
         console.log('anda el on init');
-      getUser_com();
+     // getUser_com();
     }
   
     //##########################################################################

@@ -1,0 +1,2148 @@
+Console: Array
+(
+)
+ 
+Console: Array
+(
+)
+ 
+Console: stdClass Object
+(
+    [backend] => getUsers
+)
+ 
+Console: stdClass Object
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-04-26 01:19:41
+                    [handler] => ADM
+                )
+
+        )
+
+)
+ 

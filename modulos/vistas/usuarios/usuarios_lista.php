@@ -17,7 +17,11 @@
         <section class="recent">
             <div class="user-grid">
                 <div class="user-card">
-                    <h3>Usuarios</h3>
+                    <div class="header-user-card">
+                        <div><h3>Usuarios</h3></div>
+                    <div class='btn'><a href='?p=usuarios_nuevo' class='badge info'>Agregar nuevo</a></div>
+                    
+                    </div>             
                     <div class="table-responsive">
                         <table>
                             <thead>
@@ -27,31 +31,11 @@
                                     <th>DNI</th>
                                     <th>Usuario</th>
                                     <th>Estado</th>
+                                    <th>Acciones</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1123123asd</td>
-                                    <td>a333123sd</td>
-                                    <td>as312312d</td>
-                                    <td class="td-team">
-                                        <div class="img-1"></div>
-                                        <div class="img-2"></div>
-                                        <div class="img-3"></div>
-                                    </td>
-                                    <td><span class="badge warning">Success</span></td>
-                                </tr>
-                                <tr>
-                                    <td>1123123asd</td>
-                                    <td>a333123sd</td>
-                                    <td>as312312d</td>
-                                    <td class="td-team">
-                                        <div class="img-1"></div>
-                                        <div class="img-2"></div>
-                                        <div class="img-3"></div>
-                                    </td>
-                                    <td><span class="badge success">Success</span></td>
-                                </tr>
+                            <tbody id="lista_usuarios">
+                               
                             </tbody>
                         </table>
                     </div>

@@ -30,6 +30,21 @@ class User extends DB{
         }
     }
 
+    public function getUsers(){
+        $query = $this->connect()->prepare('SELECT * FROM usuarios');
+        $query->execute();
+        
+        if ($query->execute()) {
+            $response = $query->fetchAll(PDO::FETCH_ASSOC);
+            $respuesta["codigo"] = '000001';
+            $respuesta["usuarios"] = $response;
+        } else {
+            $respuesta["codigo"] = '000000';
+        }
+        
+        return $respuesta;
+    }
+
     public function getNombre(){
         return $this->nombre;
     }
