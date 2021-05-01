@@ -38,18 +38,6 @@
     }
 </style>
 <div class="main-content">
-    <header>
-        <div class="search-wrapper">
-            <span><i class="fa fa-search"></i></span>
-            <input type="search" placeholder="buscar">
-
-        </div>
-
-        <div class="social-icons">
-            <span><i class="fa fa-bell"></i></span>
-            <span><i class="fa fa-comment"></i></span>
-        </div>
-    </header>
     <main>
         <h2 class="dash-title">Nuevo Usuario</h2>
         <section class="recent">
@@ -62,29 +50,34 @@
                         <div class='btn'><a href='?p=usuarios_lista' class='badge info'>Lista Usuario</a></div>
 
                     </div>
-                    <form class="form-nuevo-user">
-                        <label for="fname">Nombre</label>
-                        <input type="text" id="fname" name="Nombre" placeholder="Nombre">
-
-                        <label for="lname">Apellido</label>
-                        <input type="text" id="lname" name="Apellido" placeholder="Apellido">
-                        <label for="lname">DNI</label>
-                        <input type="text" id="lname" name="DNI" placeholder="DNI">
-                        <label for="lname">Email</label>
-                        <input type="text" id="lname" name="Email" placeholder="Email">
-                        <label for="lname">Telefono</label>
-                        <input type="text" id="lname" name="Telefono" placeholder="Telefono">
-                        <label for="lname">Usuario</label>
-                        <input type="text" id="lname" name="Usuario" placeholder="Usuario">
-                        <label for="lname">Password</label>
-                        <input type="password" id="lname" name="Password" placeholder="Password">
-                        <label for="lname">Confirmar Password</label>
-                        <input type="password" id="lname" name="Confirmar Password" placeholder="Confirmar Password">
+                    <div class="form-nuevo-user">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="Nombre" placeholder="Nombre">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" id="apellido" name="Apellido" placeholder="Apellido">
+                        <label for="dni">DNI</label>
+                        <input type="text" id="dni" name="DNI" placeholder="DNI">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="Email" placeholder="Email">
+                        <label for="telefono">Telefono</label>
+                        <input type="text" id="telefono" name="Telefono" placeholder="Telefono">
+                        <label for="acceso">Nivel de Acceso</label>
+                        <select name="Acceso" id="acceso">
+                            <option value="0">--Seleccione un nivel de acceso--</option>
+                            <option value="1">Administracion</option>
+                            <option value="2">Usuario</option>
+                        </select>
+                        <label for="user">Usuario</label>
+                        <input type="text" id="user" name="Usuario" placeholder="Usuario">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="Password" placeholder="Password">
+                        <label for="cpassword">Confirmar Password</label>
+                        <input type="password" id="cpassword" name="Confirmar Password" placeholder="Confirmar Password">
 
                         <div class="div-btn">
                             <button id="btn-agregar-usuario" class="badge info">Agregar</button>
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
         </section>

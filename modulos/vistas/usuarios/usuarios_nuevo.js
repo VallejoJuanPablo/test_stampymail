@@ -1,27 +1,42 @@
 $(document).ready(function () {
   
-  
-    onInit();
-  
-    function onInit() {
-        console.log('anda el on init');
-     // getUser_com();
-    }
-  
-    //##########################################################################
-    //---------------------------FUNCIONES DE ROL-------------------------------
-    //##########################################################################
-  
-    //##########################################################################
-    //---------------FUNCIONES SIMPLES PARA RELLENAR FORMULARIO-----------------
-    //##########################################################################
-  
-    async function getUser_com() {
+    const $nombre = document.querySelector("#nombre"),
+    $apellido = document.querySelector("#apellido"),
+    $email = document.querySelector("#email"),
+    $acceso = document.querySelector("#acceso"),
+    $telefono = document.querySelector("#telefono"),
+    $user = document.querySelector("#user"),
+    $password = document.querySelector("#password"),
+    $cpassword = document.querySelector("#cpassword"),
+    $dni = document.querySelector("#dni"),
+    $btnNuevoUsuario = document.querySelector("#btn-agregar-usuario");
+   
+    $btnNuevoUsuario.onclick = async () => {
+        const nombre = $nombre.value,
+            apellido = $apellido.value,
+            dni = $dni.value,
+            email = $email.value,
+            telefono = $telefono.value,
+            user = $user.value,
+            password = $password.value,
+            cpassword = $cpassword.value,
+            acceso = $acceso.value;
+        // Lo que vamos a enviar a PHP
         const datos = {
-            backend: 'getUsers', 
+            backend : 'addUser',
+            nombre: nombre, 
+            apellido : apellido,
+            dni : dni,
+            email : email,
+            telefono : telefono,
+            user : user,
+            password : password,
+            cpassword : cpassword,
+            acceso : acceso
         };
         // Codificamos...
         const _datos = JSON.stringify(datos);
+        console.log(_datos);
         // Enviamos
         try {
             const respuestaRaw = await fetch("core/userController.php", {
@@ -31,31 +46,16 @@ $(document).ready(function () {
             // El servidor nos responderá con JSON
             const respuesta = await respuestaRaw.json();
             if (respuesta) {
-                getUser_fin(respuesta);
+    
+             console.log(respuesta);
             } else {
-                console.log("nara");
+                console.log('else');
             }
         } catch (e) {
             // En caso de que haya un error
             console.log(e);
         }
-    }
-  
-    function getUser_fin(datos) {  
-    let table = document.querySelector("#lista_usuarios");
-    let tr = document.createElement("tr");
-let aux = "";
-    for(let item of datos.usuarios){
-        aux += "<tr><td>"+item.nombre+"</td><td>"+item.apellido+"</td><td>"+item.dni+"</td><td>"+item.user+"</td>";
-        if(item.estado == "S"){
-            aux += "<td><span class='badge success'>Activo</span></td>";
-        }else{
-            aux += "<td><span class='badge success'>Inactivo</span></td>";
-        }
-        aux += "<td><button class='badge green'>Modificar</button> <button class='badge danger'>Deshabilitar</button></td></tr>";
-    }
-    tr.innerHTML=aux;
-    table.appendChild(tr)
-    }
+    };
+    
   });
   

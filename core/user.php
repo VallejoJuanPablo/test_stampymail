@@ -45,6 +45,20 @@ class User extends DB{
         return $respuesta;
     }
 
+
+    public function addUser($datos){
+        $query = $this->connect()->prepare('INSERT INTO usuarios (nombre,apellido,dni,telefono,email,acceso,password,user,handler) VALUES (:nombre,:apellido,:dni,:telefono,:email,:acceso,:password,:user,:handler)');
+        
+        if ($query->execute(['nombre' => $datos['nombre'],'apellido' => $datos['apellido'],'dni' => $datos['dni'],'telefono' => $datos['telefono'],'email' => $datos['email'],'acceso' => $datos['acceso'],'password' => md5($datos['password']),'user' => $datos['user'],'handler' => 'asd']))
+         {
+            $respuesta["codigo"] = '000001';
+        } else {
+            $respuesta["codigo"] = '000000';
+        }
+        
+        return $respuesta;
+    }
+
     public function getNombre(){
         return $this->nombre;
     }
@@ -52,5 +66,3 @@ class User extends DB{
         return $this->acceso;
     }
 }
-
-?>

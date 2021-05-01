@@ -44,8 +44,9 @@ $(document).ready(function () {
     function getUser_fin(datos) {  
     let table = document.querySelector("#lista_usuarios");
     let tr = document.createElement("tr");
-let aux = "";
+    let aux = "";
     for(let item of datos.usuarios){
+       
         aux += "<tr><td>"+item.nombre+"</td><td>"+item.apellido+"</td><td>"+item.dni+"</td><td>"+item.user+"</td>";
         if(item.estado == "S"){
             aux += "<td><span class='badge success'>Activo</span></td>";
@@ -53,9 +54,10 @@ let aux = "";
             aux += "<td><span class='badge success'>Inactivo</span></td>";
         }
         aux += "<td><button class='badge green'>Modificar</button> <button class='badge danger'>Deshabilitar</button></td></tr>";
+        
+    
     }
-    tr.innerHTML=aux;
-    table.appendChild(tr)
+    table.innerHTML=aux;
     }
   });
   
