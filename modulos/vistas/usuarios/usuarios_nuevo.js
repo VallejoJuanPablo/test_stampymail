@@ -23,7 +23,7 @@ $(document).ready(function () {
             acceso = $acceso.value;
         // Lo que vamos a enviar a PHP
         const datos = {
-            backend : 'addUser',
+            backend : 'agregarUsuario',
             nombre: nombre, 
             apellido : apellido,
             dni : dni,
