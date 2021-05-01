@@ -15,6 +15,9 @@ switch ($datos['backend']) {
     case 'addUser':
         $response = $data->addUser($datos);
         break;
+    case 'buscarUsuarios':
+        $response = $data->buscarUsuarios($datos);
+        break;
 }
 
 file_put_contents('Log.txt', "Console: " . print_r($response, TRUE) . " \n", FILE_APPEND);

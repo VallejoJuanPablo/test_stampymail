@@ -45,6 +45,20 @@ class User extends DB{
         return $respuesta;
     }
 
+    public function buscarUsuarios($datos){
+        $query = $this->connect()->prepare('SELECT * FROM usuarios where dni = :dni');
+        $query->execute(['dni' => $datos['inputBusqueda']]);
+        
+        if ($query->execute()) {
+            $response = $query->fetchAll(PDO::FETCH_ASSOC);
+            $respuesta["codigo"] = '000001';
+            $respuesta["usuarios"] = $response;
+        } else {
+            $respuesta["codigo"] = '000000';
+        }
+        
+        return $respuesta;
+    }
 
     public function addUser($datos){
         $query = $this->connect()->prepare('INSERT INTO usuarios (nombre,apellido,dni,telefono,email,acceso,password,user,handler) VALUES (:nombre,:apellido,:dni,:telefono,:email,:acceso,:password,:user,:handler)');
