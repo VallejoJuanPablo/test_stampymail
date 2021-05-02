@@ -17,6 +17,11 @@
 }
 
 /* CSS SIDEBAR O BARRA DE MENU */
+.main-footer{
+    padding:1rem;
+    text-align: right;
+}
+/* CSS SIDEBAR O BARRA DE MENU */
 
 #sidebar-toggle {
     display: none;

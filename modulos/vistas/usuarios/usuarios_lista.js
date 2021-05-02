@@ -143,7 +143,7 @@ $(document).ready(function () {
 
     async function getUser_cod2_com(id) {
         const datos = {
-            backend: 'getUsers_com', id: id
+            backend: 'getUsers_cod', id: id
         };
         // Codificamos...
         const _datos = JSON.stringify(datos);
@@ -331,6 +331,41 @@ $(document).ready(function () {
         myModalRespuestaError.classList.remove('show');
     });
 
+    setInputFilter(document.getElementById("enombre"), function (value) {
+        return /^[A-Za-z\s]+$/g.test(value); // Allow digits and '.' only, using a RegExp
+    });
+    setInputFilter(document.getElementById("eapellido"), function (value) {
+        return /^[A-Za-z\s]+$/g.test(value); // Allow digits and '.' only, using a RegExp
+    });
+
+    setInputFilter(document.getElementById("etelefono"), function (value) {
+        return /^\d*\.?\d*$/.test(value); // Allow digits and '.' only, using a RegExp
+    });
+    setInputFilter(document.getElementById("edni"), function (value) {
+        return /^\d*\.?\d*$/.test(value); // Allow digits and '.' only, using a RegExp
+    });
+    
+    function validateEmail(email) {
+        const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(String(email).toLowerCase());
+    }
+
+    function setInputFilter(textbox, inputFilter) {
+        ["input", "keydown", "keyup", "mousedown", "mouseup", "select", "contextmenu", "drop"].forEach(function (event) {
+            textbox.addEventListener(event, function () {
+                if (inputFilter(this.value)) {
+                    this.oldValue = this.value;
+                    this.oldSelectionStart = this.selectionStart;
+                    this.oldSelectionEnd = this.selectionEnd;
+                } else if (this.hasOwnProperty("oldValue")) {
+                    this.value = this.oldValue;
+                    this.setSelectionRange(this.oldSelectionStart, this.oldSelectionEnd);
+                } else {
+                    this.value = "";
+                }
+            });
+        });
+    }
     function sleep(ms) {
         return new Promise(resolve => setTimeout(resolve, ms));
     }

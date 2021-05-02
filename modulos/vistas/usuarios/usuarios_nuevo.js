@@ -4,19 +4,34 @@ $(document).ready(function () {
     const myModalRespuestaError = document.getElementById('myModalRespuestaError');
     const btnClosemyModalRespuesta = document.getElementById('btnClosemyModalRespuesta');
     const btnClosemyModalRespuestaError = document.getElementById('btnClosemyModalRespuestaError');
+    const btnNuevoUsuario = document.querySelector("#btn-agregar-usuario");
 
     const $nombre = document.querySelector("#nombre"),
-    $apellido = document.querySelector("#apellido"),
-    $email = document.querySelector("#email"),
-    $acceso = document.querySelector("#acceso"),
-    $telefono = document.querySelector("#telefono"),
-    $user = document.querySelector("#user"),
-    $password = document.querySelector("#password"),
-    $cpassword = document.querySelector("#cpassword"),
-    $dni = document.querySelector("#dni"),
-    $btnNuevoUsuario = document.querySelector("#btn-agregar-usuario");
-   
-    $btnNuevoUsuario.onclick = async () => {
+        $apellido = document.querySelector("#apellido"),
+        $email = document.querySelector("#email"),
+        $acceso = document.querySelector("#acceso"),
+        $telefono = document.querySelector("#telefono"),
+        $user = document.querySelector("#user"),
+        $password = document.querySelector("#password"),
+        $cpassword = document.querySelector("#cpassword"),
+        $dni = document.querySelector("#dni");
+
+
+    function agregarUsuario_com() {
+        if ($nombre.value == '' || $apellido.value == '' || $dni.value == '' && $telefono.value == '' || $email.value == '' || $acceso.value == '0' || $user.value == '' || $password.value == '' || $cpassword.value == '' || $user.value == '') {
+            let resError = document.querySelector("#resError");
+            resError.innerHTML = 'Por favor completar todos los campos del formulario';
+            myModalRespuestaError.classList.add('show');
+        } else if ((validateEmail($email.value))) {
+            agregarUsuario();
+        } else {
+            let resError = document.querySelector("#resError");
+            resError.innerHTML = 'Por favor corroborar el formato del email';
+            myModalRespuestaError.classList.add('show');
+        }
+
+    }
+    async function agregarUsuario() {
         myModalEspera.classList.add('show');
         await sleep(500);
         const nombre = $nombre.value,
@@ -30,16 +45,16 @@ $(document).ready(function () {
             acceso = $acceso.value;
         // Lo que vamos a enviar a PHP
         const datos = {
-            backend : 'agregarUsuario',
-            nombre: nombre, 
-            apellido : apellido,
-            dni : dni,
-            email : email,
-            telefono : telefono,
-            user : user,
-            password : password,
-            cpassword : cpassword,
-            acceso : acceso
+            backend: 'agregarUsuario',
+            nombre: nombre,
+            apellido: apellido,
+            dni: dni,
+            email: email,
+            telefono: telefono,
+            user: user,
+            password: password,
+            cpassword: cpassword,
+            acceso: acceso
         };
         // Codificamos...
         const _datos = JSON.stringify(datos);
@@ -52,7 +67,7 @@ $(document).ready(function () {
             // El servidor nos responderá con JSON
             const respuesta = await respuestaRaw.json();
             if (respuesta) {
-    
+
                 agregarUsuario_fin(respuesta);
             } else {
                 console.log('else');
@@ -61,20 +76,21 @@ $(document).ready(function () {
             // En caso de que haya un error
             console.log(e);
         }
-    };
-    
+    }
     function agregarUsuario_fin(datos) {
         myModalEspera.classList.remove('show');
         switch (datos.codigo) {
             case "000001":
                 let res = document.querySelector("#res");
-                res.innerHTML = 'Agregado con éxito';
+                res.innerHTML = datos.mensaje;
                 myModalRespuesta.classList.add('show');
                 break;
-                case "000002":
+            case "000000":
+            case "000002":
             case "000003":
+            case "000004":
                 let resError = document.querySelector("#resError");
-                resError.innerHTML = datos.error;
+                resError.innerHTML = datos.mensaje;
                 myModalRespuestaError.classList.add('show');
                 break;
 
@@ -82,6 +98,10 @@ $(document).ready(function () {
                 break;
         }
     }
+
+    btnNuevoUsuario.addEventListener('click', () => {
+        agregarUsuario_com();
+    });
 
     btnClosemyModalRespuesta.addEventListener('click', () => {
         window.location.href = "?p=usuarios_lista";
@@ -91,8 +111,45 @@ $(document).ready(function () {
         myModalRespuestaError.classList.remove('show');
     });
 
+
+    setInputFilter(document.getElementById("nombre"), function (value) {
+        return /^[A-Za-z\s]+$/g.test(value); // Allow digits and '.' only, using a RegExp
+    });
+    setInputFilter(document.getElementById("apellido"), function (value) {
+        return /^[A-Za-z\s]+$/g.test(value); // Allow digits and '.' only, using a RegExp
+    });
+
+    setInputFilter(document.getElementById("telefono"), function (value) {
+        return /^\d*\.?\d*$/.test(value); // Allow digits and '.' only, using a RegExp
+    });
+    setInputFilter(document.getElementById("dni"), function (value) {
+        return /^\d*\.?\d*$/.test(value); // Allow digits and '.' only, using a RegExp
+    });
+
+    function validateEmail(email) {
+        const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(String(email).toLowerCase());
+    }
+
+    function setInputFilter(textbox, inputFilter) {
+        ["input", "keydown", "keyup", "mousedown", "mouseup", "select", "contextmenu", "drop"].forEach(function (event) {
+            textbox.addEventListener(event, function () {
+                if (inputFilter(this.value)) {
+                    this.oldValue = this.value;
+                    this.oldSelectionStart = this.selectionStart;
+                    this.oldSelectionEnd = this.selectionEnd;
+                } else if (this.hasOwnProperty("oldValue")) {
+                    this.value = this.oldValue;
+                    this.setSelectionRange(this.oldSelectionStart, this.oldSelectionEnd);
+                } else {
+                    this.value = "";
+                }
+            });
+        });
+    }
     function sleep(ms) {
         return new Promise(resolve => setTimeout(resolve, ms));
     }
-  });
-  
+
+
+});

@@ -1,10 +1,7 @@
-<!-- <footer class="main-footer">
-    <strong>Admin LTE adaptado para prueba de stampymail</strong>
+<footer class="main-footer">
+    <strong>Prueba de Stampymail</strong>
   </footer>
   </div>
   </body>
-</html> -->
+</html> 
 
-</body>
-
-</html>

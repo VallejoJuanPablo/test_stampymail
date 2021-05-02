@@ -12,8 +12,8 @@ switch ($datos['backend']) {
     case 'getUsers':
         $response = $data->getUsers();
         break;
-    case 'getUsers_com':
-        $response = $data->getUsers_com($datos);
+    case 'getUsers_cod':
+        $response = $data->getUsers_cod($datos);
         break;
     case 'agregarUsuario':
         $response = $data->agregarUsuario($datos);
