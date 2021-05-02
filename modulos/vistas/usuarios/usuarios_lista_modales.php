@@ -50,7 +50,7 @@
                 <label for="eapellido">Apellido</label>
                 <input type="text" id="eapellido" name="Apellido" placeholder="Apellido">
                 <label for="edni">DNI</label>
-                <input type="text" id="edni" name="DNI" placeholder="DNI">
+                <input type="text" id="edni" name="DNI" disabled placeholder="DNI">
                 <label for="eemail">Email</label>
                 <input type="text" id="eemail" name="Email" placeholder="Email">
                 <label for="etelefono">Telefono</label>

@@ -1,5 +1,10 @@
 $(document).ready(function () {
-  
+    const myModalEspera = document.getElementById('myModalEspera');
+    const myModalRespuesta = document.getElementById('myModalRespuesta');
+    const myModalRespuestaError = document.getElementById('myModalRespuestaError');
+    const btnClosemyModalRespuesta = document.getElementById('btnClosemyModalRespuesta');
+    const btnClosemyModalRespuestaError = document.getElementById('btnClosemyModalRespuestaError');
+
     const $nombre = document.querySelector("#nombre"),
     $apellido = document.querySelector("#apellido"),
     $email = document.querySelector("#email"),
@@ -12,6 +17,8 @@ $(document).ready(function () {
     $btnNuevoUsuario = document.querySelector("#btn-agregar-usuario");
    
     $btnNuevoUsuario.onclick = async () => {
+        myModalEspera.classList.add('show');
+        await sleep(500);
         const nombre = $nombre.value,
             apellido = $apellido.value,
             dni = $dni.value,
@@ -36,7 +43,6 @@ $(document).ready(function () {
         };
         // Codificamos...
         const _datos = JSON.stringify(datos);
-        console.log(_datos);
         // Enviamos
         try {
             const respuestaRaw = await fetch("core/userController.php", {
@@ -47,7 +53,7 @@ $(document).ready(function () {
             const respuesta = await respuestaRaw.json();
             if (respuesta) {
     
-             console.log(respuesta);
+                agregarUsuario_fin(respuesta);
             } else {
                 console.log('else');
             }
@@ -57,5 +63,36 @@ $(document).ready(function () {
         }
     };
     
+    function agregarUsuario_fin(datos) {
+        myModalEspera.classList.remove('show');
+        switch (datos.codigo) {
+            case "000001":
+                let res = document.querySelector("#res");
+                res.innerHTML = 'Agregado con éxito';
+                myModalRespuesta.classList.add('show');
+                break;
+                case "000002":
+            case "000003":
+                let resError = document.querySelector("#resError");
+                resError.innerHTML = datos.error;
+                myModalRespuestaError.classList.add('show');
+                break;
+
+            default:
+                break;
+        }
+    }
+
+    btnClosemyModalRespuesta.addEventListener('click', () => {
+        window.location.href = "?p=usuarios_lista";
+    });
+
+    btnClosemyModalRespuestaError.addEventListener('click', () => {
+        myModalRespuestaError.classList.remove('show');
+    });
+
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
   });
   

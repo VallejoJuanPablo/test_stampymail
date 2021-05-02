@@ -43582,3 +43582,828 @@ Console: Array
 
 )
  
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-05-02 13:02:36
+                    [handler] => asd
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [user] => 22221
+                    [password] => PRUEBAS
+                    [acceso] => 1
+                    [nombre] => 33312312
+                    [apellido] => qwe
+                    [dni] => ewq
+                    [telefono] => qwe
+                    [email] => as
+                    [estado] => S
+                    [fecha_create] => 2021-05-01 14:00:12
+                    [fecha_mod] => 2021-05-02 14:32:03
+                    [handler] => asd
+                )
+
+            [2] => Array
+                (
+                    [id] => 3
+                    [user] => AdminGeneral
+                    [password] => f4df9d6321a798cc1793d77461cf743d
+                    [acceso] => 1
+                    [nombre] => 2222222222
+                    [apellido] => 333
+                    [dni] => ewq2
+                    [telefono] => qwe
+                    [email] => as23
+                    [estado] => N
+                    [fecha_create] => 2021-05-01 14:00:12
+                    [fecha_mod] => 2021-05-02 13:29:45
+                    [handler] => asd
+                )
+
+            [3] => Array
+                (
+                    [id] => 4
+                    [user] => AdminGeneral
+                    [password] => f4df9d6321a798cc1793d77461cf743d
+                    [acceso] => 1
+                    [nombre] => qweqweqwe
+                    [apellido] => qwe
+                    [dni] => ewq
+                    [telefono] => qwe
+                    [email] => as
+                    [estado] => S
+                    [fecha_create] => 2021-05-01 14:01:12
+                    [fecha_mod] => 2021-05-02 01:19:10
+                    [handler] => asd
+                )
+
+            [4] => Array
+                (
+                    [id] => 5
+                    [user] => AdminGeneral
+                    [password] => f4df9d6321a798cc1793d77461cf743d
+                    [acceso] => 1
+                    [nombre] => qwe
+                    [apellido] => qwe
+                    [dni] => ewq
+                    [telefono] => qwe
+                    [email] => as
+                    [estado] => S
+                    [fecha_create] => 2021-05-01 14:01:12
+                    [fecha_mod] => 2021-05-02 01:19:12
+                    [handler] => asd
+                )
+
+            [5] => Array
+                (
+                    [id] => 6
+                    [user] => AdminGeneral
+                    [password] => f4df9d6321a798cc1793d77461cf743d
+                    [acceso] => 1
+                    [nombre] => qwe
+                    [apellido] => qwe
+                    [dni] => ewq
+                    [telefono] => qwe
+                    [email] => as
+                    [estado] => S
+                    [fecha_create] => 2021-05-01 14:01:47
+                    [fecha_mod] => 2021-05-01 14:01:47
+                    [handler] => asd
+                )
+
+            [6] => Array
+                (
+                    [id] => 7
+                    [user] => user2
+                    [password] => c1572d05424d0ecb2a65ec6a82aeacbf
+                    [acceso] => 2
+                    [nombre] => user2
+                    [apellido] => pass
+                    [dni] => 37892312
+                    [telefono] => 12312
+                    [email] => juampyy11@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-05-02 12:45:50
+                    [fecha_mod] => 2021-05-02 12:45:50
+                    [handler] => asd
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers_com
+    [id] => 3
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [user] => AdminGeneral
+                    [password] => f4df9d6321a798cc1793d77461cf743d
+                    [acceso] => 1
+                    [nombre] => 2222222222
+                    [apellido] => 333
+                    [dni] => ewq2
+                    [telefono] => qwe
+                    [email] => as23
+                    [estado] => N
+                    [fecha_create] => 2021-05-01 14:00:12
+                    [fecha_mod] => 2021-05-02 13:29:45
+                    [handler] => asd
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => editarUsuario
+    [id] => 3
+    [nombre] => 2222222222
+    [apellido] => 333
+    [email] => as23
+    [telefono] => qwe
+    [dni] => ewq2
+    [acceso] => 2
+    [user] => AdminGeneral
+    [password] => 
+    [cpassword] => 
+)
+ 
+Console: Array
+(
+    [codigo] => 000003
+    [error] => User Existente
+)
+ 
+Console: Array
+(
+    [backend] => contarUsuarios
+)
+ 
+Console: 1 
+Console: Array
+(
+    [backend] => contarUsuarios
+)
+ 
+Console: 1 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-05-02 13:02:36
+                    [handler] => asd
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => agregarUsuario
+    [nombre] => mati
+    [apellido] => pererira
+    [dni] => 1548641
+    [email] => asdasdqweqw
+    [telefono] => 648
+    [user] => matip
+    [password] => pass
+    [cpassword] => pass
+    [acceso] => 1
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+)
+ 
+Console: Array
+(
+    [backend] => agregarUsuario
+    [nombre] => qweqwe
+    [apellido] => asdasd
+    [dni] => 123
+    [email] => qweqwe
+    [telefono] => asd
+    [user] => AdminGeneral222
+    [password] => pass
+    [cpassword] => pass
+    [acceso] => 2
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-05-02 13:02:36
+                    [handler] => asd
+                )
+
+            [1] => Array
+                (
+                    [id] => 8
+                    [user] => matip
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => mati
+                    [apellido] => pererira
+                    [dni] => 1548641
+                    [telefono] => 648
+                    [email] => asdasdqweqw
+                    [estado] => S
+                    [fecha_create] => 2021-05-02 15:06:34
+                    [fecha_mod] => 2021-05-02 15:06:34
+                    [handler] => asd
+                )
+
+            [2] => Array
+                (
+                    [id] => 9
+                    [user] => AdminGeneral222
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 2
+                    [nombre] => qweqwe
+                    [apellido] => asdasd
+                    [dni] => 123
+                    [telefono] => asd
+                    [email] => qweqwe
+                    [estado] => S
+                    [fecha_create] => 2021-05-02 15:07:11
+                    [fecha_mod] => 2021-05-02 15:07:11
+                    [handler] => asd
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => agregarUsuario
+    [nombre] => 2223
+    [apellido] => 3331
+    [dni] => 12355
+    [email] => 5123123
+    [telefono] => 111
+    [user] => AdminGeneral1
+    [password] => pass
+    [cpassword] => pass
+    [acceso] => 1
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-05-02 13:02:36
+                    [handler] => asd
+                )
+
+            [1] => Array
+                (
+                    [id] => 8
+                    [user] => matip
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => mati
+                    [apellido] => pererira
+                    [dni] => 1548641
+                    [telefono] => 648
+                    [email] => asdasdqweqw
+                    [estado] => S
+                    [fecha_create] => 2021-05-02 15:06:34
+                    [fecha_mod] => 2021-05-02 15:06:34
+                    [handler] => asd
+                )
+
+            [2] => Array
+                (
+                    [id] => 9
+                    [user] => AdminGeneral222
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 2
+                    [nombre] => qweqwe
+                    [apellido] => asdasd
+                    [dni] => 123
+                    [telefono] => asd
+                    [email] => qweqwe
+                    [estado] => S
+                    [fecha_create] => 2021-05-02 15:07:11
+                    [fecha_mod] => 2021-05-02 15:07:11
+                    [handler] => asd
+                )
+
+            [3] => Array
+                (
+                    [id] => 10
+                    [user] => AdminGeneral1
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => 2223
+                    [apellido] => 3331
+                    [dni] => 12355
+                    [telefono] => 111
+                    [email] => 5123123
+                    [estado] => S
+                    [fecha_create] => 2021-05-02 15:08:01
+                    [fecha_mod] => 2021-05-02 15:08:01
+                    [handler] => asd
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => agregarUsuario
+    [nombre] => 111
+    [apellido] => 33123
+    [dni] => sadasdad
+    [email] => asdasd
+    [telefono] => asdasd
+    [user] => AdminGeneral1
+    [password] => pass
+    [cpassword] => 123
+    [acceso] => 1
+)
+ 
+Console: Array
+(
+    [codigo] => 000002
+    [error] => Error confirmando el Password
+)
+ 
+Console: Array
+(
+    [backend] => agregarUsuario
+    [nombre] => 111
+    [apellido] => 33123
+    [dni] => sadasdad
+    [email] => asdasd
+    [telefono] => asdasd
+    [user] => AdminGeneral1
+    [password] => pass
+    [cpassword] => pass
+    [acceso] => 1
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-05-02 13:02:36
+                    [handler] => asd
+                )
+
+            [1] => Array
+                (
+                    [id] => 8
+                    [user] => matip
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => mati
+                    [apellido] => pererira
+                    [dni] => 1548641
+                    [telefono] => 648
+                    [email] => asdasdqweqw
+                    [estado] => S
+                    [fecha_create] => 2021-05-02 15:06:34
+                    [fecha_mod] => 2021-05-02 15:06:34
+                    [handler] => asd
+                )
+
+            [2] => Array
+                (
+                    [id] => 9
+                    [user] => AdminGeneral222
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 2
+                    [nombre] => qweqwe
+                    [apellido] => asdasd
+                    [dni] => 123
+                    [telefono] => asd
+                    [email] => qweqwe
+                    [estado] => S
+                    [fecha_create] => 2021-05-02 15:07:11
+                    [fecha_mod] => 2021-05-02 15:07:11
+                    [handler] => asd
+                )
+
+            [3] => Array
+                (
+                    [id] => 10
+                    [user] => AdminGeneral1
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => 2223
+                    [apellido] => 3331
+                    [dni] => 12355
+                    [telefono] => 111
+                    [email] => 5123123
+                    [estado] => S
+                    [fecha_create] => 2021-05-02 15:08:01
+                    [fecha_mod] => 2021-05-02 15:08:01
+                    [handler] => asd
+                )
+
+            [4] => Array
+                (
+                    [id] => 11
+                    [user] => AdminGeneral1
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => 111
+                    [apellido] => 33123
+                    [dni] => sadasdad
+                    [telefono] => asdasd
+                    [email] => asdasd
+                    [estado] => S
+                    [fecha_create] => 2021-05-02 15:09:25
+                    [fecha_mod] => 2021-05-02 15:09:25
+                    [handler] => asd
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-05-02 13:02:36
+                    [handler] => asd
+                )
+
+            [1] => Array
+                (
+                    [id] => 8
+                    [user] => matip
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => mati
+                    [apellido] => pererira
+                    [dni] => 1548641
+                    [telefono] => 648
+                    [email] => asdasdqweqw
+                    [estado] => S
+                    [fecha_create] => 2021-05-02 15:06:34
+                    [fecha_mod] => 2021-05-02 15:06:34
+                    [handler] => asd
+                )
+
+            [2] => Array
+                (
+                    [id] => 9
+                    [user] => AdminGeneral222
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 2
+                    [nombre] => qweqwe
+                    [apellido] => asdasd
+                    [dni] => 123
+                    [telefono] => asd
+                    [email] => qweqwe
+                    [estado] => S
+                    [fecha_create] => 2021-05-02 15:07:11
+                    [fecha_mod] => 2021-05-02 15:07:11
+                    [handler] => asd
+                )
+
+            [3] => Array
+                (
+                    [id] => 10
+                    [user] => AdminGeneral1
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => 2223
+                    [apellido] => 3331
+                    [dni] => 12355
+                    [telefono] => 111
+                    [email] => 5123123
+                    [estado] => S
+                    [fecha_create] => 2021-05-02 15:08:01
+                    [fecha_mod] => 2021-05-02 15:08:01
+                    [handler] => asd
+                )
+
+            [4] => Array
+                (
+                    [id] => 11
+                    [user] => AdminGeneral1
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => 111
+                    [apellido] => 33123
+                    [dni] => sadasdad
+                    [telefono] => asdasd
+                    [email] => asdasd
+                    [estado] => S
+                    [fecha_create] => 2021-05-02 15:09:25
+                    [fecha_mod] => 2021-05-02 15:09:25
+                    [handler] => asd
+                )
+
+        )
+
+)
+ 
+Console: Array
+(
+    [backend] => agregarUsuario
+    [nombre] => 3588j
+    [apellido] => hg5t56
+    [dni] => ghghj
+    [email] => ghjghj
+    [telefono] => 2342
+    [user] => AdminGeneral1
+    [password] => pass
+    [cpassword] => pass
+    [acceso] => 1
+)
+ 
+Console: Array
+(
+    [codigo] => 000003
+    [error] => User Existente
+)
+ 
+Console: Array
+(
+    [backend] => agregarUsuario
+    [nombre] => 3588j
+    [apellido] => hg5t56
+    [dni] => ghghj
+    [email] => ghjghj
+    [telefono] => 2342
+    [user] => AdminGeneral1222
+    [password] => pass
+    [cpassword] => pass
+    [acceso] => 1
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+)
+ 
+Console: Array
+(
+    [backend] => getUsers
+)
+ 
+Console: Array
+(
+    [codigo] => 000001
+    [usuarios] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [user] => user
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => juan pablo
+                    [apellido] => vallejo
+                    [dni] => 37810153
+                    [telefono] => 3794000826
+                    [email] => juampy.vallejo@gmail.com
+                    [estado] => S
+                    [fecha_create] => 2021-04-26 00:46:22
+                    [fecha_mod] => 2021-05-02 13:02:36
+                    [handler] => asd
+                )
+
+            [1] => Array
+                (
+                    [id] => 8
+                    [user] => matip
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => mati
+                    [apellido] => pererira
+                    [dni] => 1548641
+                    [telefono] => 648
+                    [email] => asdasdqweqw
+                    [estado] => S
+                    [fecha_create] => 2021-05-02 15:06:34
+                    [fecha_mod] => 2021-05-02 15:06:34
+                    [handler] => asd
+                )
+
+            [2] => Array
+                (
+                    [id] => 9
+                    [user] => AdminGeneral222
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 2
+                    [nombre] => qweqwe
+                    [apellido] => asdasd
+                    [dni] => 123
+                    [telefono] => asd
+                    [email] => qweqwe
+                    [estado] => S
+                    [fecha_create] => 2021-05-02 15:07:11
+                    [fecha_mod] => 2021-05-02 15:07:11
+                    [handler] => asd
+                )
+
+            [3] => Array
+                (
+                    [id] => 10
+                    [user] => AdminGeneral1
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => 2223
+                    [apellido] => 3331
+                    [dni] => 12355
+                    [telefono] => 111
+                    [email] => 5123123
+                    [estado] => S
+                    [fecha_create] => 2021-05-02 15:08:01
+                    [fecha_mod] => 2021-05-02 15:08:01
+                    [handler] => asd
+                )
+
+            [4] => Array
+                (
+                    [id] => 11
+                    [user] => AdminGeneral1
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => 111
+                    [apellido] => 33123
+                    [dni] => sadasdad
+                    [telefono] => asdasd
+                    [email] => asdasd
+                    [estado] => S
+                    [fecha_create] => 2021-05-02 15:09:25
+                    [fecha_mod] => 2021-05-02 15:09:25
+                    [handler] => asd
+                )
+
+            [5] => Array
+                (
+                    [id] => 12
+                    [user] => AdminGeneral1222
+                    [password] => 1a1dc91c907325c69271ddf0c944bc72
+                    [acceso] => 1
+                    [nombre] => 3588j
+                    [apellido] => hg5t56
+                    [dni] => ghghj
+                    [telefono] => 2342
+                    [email] => ghjghj
+                    [estado] => S
+                    [fecha_create] => 2021-05-02 15:11:20
+                    [fecha_mod] => 2021-05-02 15:11:20
+                    [handler] => asd
+                )
+
+        )
+
+)
+ 

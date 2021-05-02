@@ -23,6 +23,20 @@ class User extends DB
 
     public function agregarUsuario($datos)
     {
+        if ($this->checkUsernameAgregar($datos['user'])) {
+            $respuesta["codigo"] = '000003';
+            $respuesta["error"] = 'User Existente';
+            return $respuesta;
+        }
+
+        if ($datos['password'] == $datos['cpassword']) {
+        } else {
+            $respuesta["codigo"] = '000002';
+            $respuesta["error"] = 'Error confirmando el Password';
+            return $respuesta;
+        }
+
+
         $query = $this->connect()->prepare('INSERT INTO usuarios (nombre,apellido,dni,telefono,email,acceso,password,user,handler) VALUES (:nombre,:apellido,:dni,:telefono,:email,:acceso,:password,:user,:handler)');
 
         if ($query->execute(['nombre' => $datos['nombre'], 'apellido' => $datos['apellido'], 'dni' => $datos['dni'], 'telefono' => $datos['telefono'], 'email' => $datos['email'], 'acceso' => $datos['acceso'], 'password' => md5($datos['password']), 'user' => $datos['user'], 'handler' => 'asd'])) {
@@ -37,7 +51,7 @@ class User extends DB
     public function editarUsuario($datos)
     {
         $cambioPassword = false;
-        if($this->checkUsername($datos['user'], $datos['id'])){
+        if ($this->checkUsername($datos['user'], $datos['id'])) {
             $respuesta["codigo"] = '000003';
             $respuesta["error"] = 'User Existente';
             return $respuesta;
@@ -101,6 +115,18 @@ class User extends DB
     {
         $query = $this->connect()->prepare('SELECT * FROM usuarios WHERE user = :user AND id = :id');
         $query->execute(['user' => $user, 'id' => $id]);
+
+        if ($query->rowCount()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public function checkUsernameAgregar($user)
+    {
+        $query = $this->connect()->prepare('SELECT * FROM usuarios WHERE user = :user');
+        $query->execute(['user' => $user]);
 
         if ($query->rowCount()) {
             return true;
