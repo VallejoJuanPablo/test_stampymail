@@ -2,7 +2,7 @@
     <div class="modal-dialog">
         <div class="modal-header">
             Ver Usuario
-            <button class="close-modal" id="close" aria-label="close modal" data-close>✕</button>
+            <button class="close-modal" id="btnClosemyModalVerUsuario" aria-label="close modal" data-close>✕</button>
         </div>
         <section class="modal-content">
             <div class="form-user">
@@ -29,9 +29,7 @@
                 <label for="cpassword">Confirmar Password</label>
                 <input type="password" id="cpassword" disabled name="Confirmar Password" placeholder="Confirmar Password">
 
-                <div class="div-btn">
-                    <button id="btn-agregar-usuario" class="badge info">Agregar</button>
-                </div>
+                
             </div>
         </section>
         <footer class="modal-footer"></footer>
@@ -42,10 +40,11 @@
     <div class="modal-dialog">
         <div class="modal-header">
             Editar Usuario
-            <button class="close-modal" aria-label="close modal" data-close>✕</button>
+            <button class="close-modal" id = "btnClosemyModalEditarUsuario"aria-label="close modal" data-close>✕</button>
         </div>
         <section class="modal-content">
             <div class="form-user">
+            <input type="hidden" id="eid" name="id" placeholder="id" >
                 <label for="enombre">Nombre</label>
                 <input type="text" id="enombre" name="Nombre" placeholder="Nombre">
                 <label for="eapellido">Apellido</label>
@@ -70,7 +69,7 @@
                 <input type="password" id="ecpassword" name="Confirmar Password" placeholder="Confirmar Password">
 
                 <div class="div-btn">
-                    <button id="btn-agregar-usuario" class="badge info">Agregar</button>
+                    <button id="btnEditarmyModalEditarUsuario" class="badge info">Editar</button>
                 </div>
             </div>
         </section>
