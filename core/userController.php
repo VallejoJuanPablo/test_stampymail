@@ -27,6 +27,9 @@ switch ($datos['backend']) {
     case 'desHabUsuario':
         $response = $data->desHabUsuario($datos);
         break;
+        case 'contarUsuarios':
+            $response = $data->contarUsuarios();
+            break;
 }
 
 file_put_contents('Log.txt', "Console: " . print_r($response, TRUE) . " \n", FILE_APPEND);

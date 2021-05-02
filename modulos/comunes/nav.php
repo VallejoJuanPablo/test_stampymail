@@ -9,6 +9,11 @@
     </div>
     <div class="sidebar-menu">
         <ul>
+        <li>
+            <a href="?p=home">
+                    <span><i class="fa fa-home"></i></span>
+                    <span>Home</span></a>
+            </li>
             <li>
             <a href="?p=usuarios_lista">
                     <span><i class="fa fa-users"></i></span>

@@ -11,8 +11,10 @@ $pages = array(
                 'usuarios_nuevo' => array('url' => 'modulos/vistas/usuarios/usuarios_nuevo.php', 'urljs' => array('modulos/vistas/usuarios/usuarios_nuevo.js')),   
             );
         break;
-             case 2: //USER 
-                break;
+        case 2: //USER
+            $pages2 = array('usuarios_lista' => array('url' => 'modulos/vistas/usuarios/usuarios_lista.php', 'urljs' => array('modulos/vistas/usuarios/usuarios_lista.js')),  
+            'usuarios_nuevo' => array('url' => 'modulos/vistas/usuarios/usuarios_nuevo.php', 'urljs' => array('modulos/vistas/usuarios/usuarios_nuevo.js')),   
+        );
             default:
                 break;
         }

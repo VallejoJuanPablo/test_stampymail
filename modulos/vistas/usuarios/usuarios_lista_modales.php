@@ -29,7 +29,7 @@
                 <label for="cpassword">Confirmar Password</label>
                 <input type="password" id="cpassword" disabled name="Confirmar Password" placeholder="Confirmar Password">
 
-                
+
             </div>
         </section>
         <footer class="modal-footer"></footer>
@@ -40,11 +40,11 @@
     <div class="modal-dialog">
         <div class="modal-header">
             Editar Usuario
-            <button class="close-modal" id = "btnClosemyModalEditarUsuario"aria-label="close modal" data-close>✕</button>
+            <button class="close-modal" id="btnClosemyModalEditarUsuario" aria-label="close modal" data-close>✕</button>
         </div>
         <section class="modal-content">
             <div class="form-user">
-            <input type="hidden" id="eid" name="id" placeholder="id" >
+                <input type="hidden" id="eid" name="id" placeholder="id">
                 <label for="enombre">Nombre</label>
                 <input type="text" id="enombre" name="Nombre" placeholder="Nombre">
                 <label for="eapellido">Apellido</label>
@@ -80,12 +80,39 @@
 <div class="modal-container" id="myModalEspera">
     <div class="modal-dialog">
         <div class="modal-header">
-          
         </div>
-        <img src="./img/dino.gif" class="dino" alt="Flowers in Chania">
+        <img src="./img/dino.gif" class="dino" alt="Alerta">
         <div class="modal-content">
-          Espere por favor...
+            Espere por favor...
         </div>
         <footer class="modal-footer"></footer>
+    </div>
+</div>
+
+
+<div class="modal-container" id="myModalRespuesta">
+    <div class="modal-dialog">
+        <div class="modal-header"> Respuesta
+        </div>
+        <div class="modal-content">
+            <h3 id="res"></h3>
+        </div>
+        <footer class="modal-footer">
+            <button class="close-modal" id="btnClosemyModalRespuesta" aria-label="close modal" data-close>Aceptar</button>
+        </footer>
+    </div>
+</div>
+
+
+<div class="modal-container" id="myModalRespuestaError">
+    <div class="modal-dialog">
+        <div class="modal-header"> Respuesta
+        </div>
+        <div class="modal-content">
+            <h3 id="resError"></h3>
+        </div>
+        <footer class="modal-footer">
+            <button class="close-modal" id="btnClosemyModalRespuestaError" aria-label="close modal" data-close>Aceptar</button>
+        </footer>
     </div>
 </div>

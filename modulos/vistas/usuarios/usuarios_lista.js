@@ -2,16 +2,20 @@ $(document).ready(function () {
     const myModalEditarUsuario = document.getElementById('myModalEditarUsuario');
     const myModalVerUsuario = document.getElementById('myModalVerUsuario');
     const myModalEspera = document.getElementById('myModalEspera');
+    const myModalRespuesta = document.getElementById('myModalRespuesta');
+    const myModalRespuestaError = document.getElementById('myModalRespuestaError');
     const btnClosemyModalVerUsuario = document.getElementById('btnClosemyModalVerUsuario');
     const btnClosemyModalEditarUsuario = document.getElementById('btnClosemyModalEditarUsuario');
     const btnEditarmyModalEditarUsuario = document.getElementById('btnEditarmyModalEditarUsuario');
+    const btnClosemyModalRespuesta = document.getElementById('btnClosemyModalRespuesta');
+    const btnClosemyModalRespuestaError = document.getElementById('btnClosemyModalRespuestaError');
     const btnBuscar = document.querySelector("#btn-buscar-usuario");
     const $inputBusqueda = document.querySelector("#input-busquedas");
 
     onInit();
 
     function onInit() {
-        console.log($inputBusqueda.value);
+
         getUser_com();
     }
 
@@ -82,12 +86,17 @@ $(document).ready(function () {
         let aux = "";
         for (let item of datos.usuarios) {
             aux += "<tr><td>" + item.nombre + "</td><td>" + item.apellido + "</td><td>" + item.dni + "</td><td>" + item.user + "</td>";
+            if (item.acceso == "1") {
+                aux += "<td>Adminitrador</td>";
+            } else {
+                aux += "<td>Usuario</td>";
+            }
             if (item.estado == "S") {
-                aux += "<td><button class='badge success'>Activo</button></td><td><button data-opt='1' data-val='N' value='" + item.id + "'class='badge warning'>Deshabilitar</button>";
+                aux += "<td><button class='badge success'>Activo</button></td><td><button data-opt='1' data-val='N' value='" + item.id + "'class='badge warning actionButton'>Deshabilitar</button>";
             } else {
                 aux += "<td><button class='badge warning'>Inactivo</button></td><td><button data-opt='1' data-val='S' value='" + item.id + "'class='badge success'>Habilitar</button>";
             }
-            aux += "<button data-opt='2' value='" + item.id + "' class='badge green t'>Modificar</button> <button data-opt='3' value='" + item.id + "' class='badge danger'>Ver</button></td></tr>";
+            aux += "<button data-opt='2' value='" + item.id + "' class='badge green actionButton'>Modificar</button> <button data-opt='3' value='" + item.id + "' class='badge danger actionButton'>Ver</button></td></tr>";
         }
         table.innerHTML = aux;
     }
@@ -199,7 +208,7 @@ $(document).ready(function () {
             // El servidor nos responderá con JSON
             const respuesta = await respuestaRaw.json();
             if (respuesta) {
-                editarUsuario_fin();
+                editarUsuario_fin(respuesta);
             } else {
                 console.log("nara");
             }
@@ -210,10 +219,29 @@ $(document).ready(function () {
 
     }
 
-    function editarUsuario_fin() {
-        limpiar_table();
-        getUser_com();
-        myModalEditarUsuario.classList.remove('show');
+    function editarUsuario_fin(datos) {
+
+        switch (datos.codigo) {
+            case "000001":
+                myModalEditarUsuario.classList.remove('show');
+                limpiar_table();
+                getUser_com();
+                let res = document.querySelector("#res");
+                res.innerHTML = 'Modificado con éxito';
+                myModalRespuesta.classList.add('show');
+                break;
+                case "000002":
+            case "000003":
+                let resError = document.querySelector("#resError");
+                resError.innerHTML = datos.error;
+                myModalRespuestaError.classList.add('show');
+                break;
+
+            default:
+                break;
+        }
+
+
     }
 
     async function desHabUsuario_com(id, val) {
@@ -266,19 +294,23 @@ $(document).ready(function () {
                 break;
             case 1:
                 var val = $(this).data("val");
-                console.log(val);
                 myModalEspera.classList.add('show');
                 desHabUsuario_com(id, val);
                 break;
             default:
                 break;
         }
-    });
+    }); 
+
+   
+
+
 
 
     btnBuscar.addEventListener('click', () => {
         buscarUsuario_com();
     });
+
     btnEditarmyModalEditarUsuario.addEventListener('click', () => {
         editarUsuario_com();
     });
@@ -287,11 +319,17 @@ $(document).ready(function () {
         myModalVerUsuario.classList.remove('show');
     });
 
-
     btnClosemyModalEditarUsuario.addEventListener('click', () => {
         myModalEditarUsuario.classList.remove('show');
     });
 
+    btnClosemyModalRespuesta.addEventListener('click', () => {
+        window.location.href = "?p=usuarios_lista";
+    });
+
+    btnClosemyModalRespuestaError.addEventListener('click', () => {
+        myModalRespuestaError.classList.remove('show');
+    });
 
     function sleep(ms) {
         return new Promise(resolve => setTimeout(resolve, ms));

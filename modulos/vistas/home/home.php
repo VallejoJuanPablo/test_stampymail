@@ -7,7 +7,7 @@
                     <span><i class="fa fa-users"></i></span>
                     <div>
                         <h5> Usuarios</h5>
-                        <h4> 50</h4>
+                        <h4 id='cantidadUsuarios'></h4>
                     </div>
                 </div>
                 <div class="card-footer">

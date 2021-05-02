@@ -32,6 +32,7 @@
                                       <th>Apellido</th>
                                       <th>DNI</th>
                                       <th>Usuario</th>
+                                      <th>Acceso</th>
                                       <th>Estado</th>
                                       <th>Acciones</th>
                                   </tr>
