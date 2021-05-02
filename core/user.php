@@ -8,9 +8,7 @@ class User extends DB{
 
     public function buscarUsuarios($datos){
         $query = $this->connect()->prepare('SELECT * FROM usuarios where dni = :dni');
-        $query->execute(['dni' => $datos['inputBusqueda']]);
-        
-        if ($query->execute()) {
+        if ( $query->execute(['dni' => $datos['inputBusqueda']])) {
             $response = $query->fetchAll(PDO::FETCH_ASSOC);
             $respuesta["codigo"] = '000001';
             $respuesta["usuarios"] = $response;
@@ -38,6 +36,19 @@ class User extends DB{
         $query = $this->connect()->prepare('UPDATE usuarios SET nombre=:nombre,apellido=:apellido,dni=:dni,telefono=:telefono,email=:email,acceso=:acceso,password=:password,user=:user,handler=:handler where id =:id');
         
         if ($query->execute(['id' => $datos['id'],'nombre' => $datos['nombre'],'apellido' => $datos['apellido'],'dni' => $datos['dni'],'telefono' => $datos['telefono'],'email' => $datos['email'],'acceso' => $datos['acceso'],'password' => md5($datos['password']),'user' => $datos['user'],'handler' => 'asd']))
+         {
+            $respuesta["codigo"] = '000001';
+        } else {
+            $respuesta["codigo"] = '000000';
+        }
+        
+        return $respuesta;
+    }
+
+    public function desHabUsuario($datos){
+        $query = $this->connect()->prepare('UPDATE usuarios SET estado=:estado,handler=:handler where id =:id');
+        
+        if ($query->execute(['id' => $datos['id'],'estado' => $datos['val'],'handler' => 'asd']))
          {
             $respuesta["codigo"] = '000001';
         } else {

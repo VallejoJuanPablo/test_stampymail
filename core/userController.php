@@ -12,18 +12,21 @@ switch ($datos['backend']) {
     case 'getUsers':
         $response = $data->getUsers();
         break;
-        case 'getUsers_com':
-            $response = $data->getUsers_com($datos);
-            break;
+    case 'getUsers_com':
+        $response = $data->getUsers_com($datos);
+        break;
     case 'agregarUsuario':
         $response = $data->agregarUsuario($datos);
         break;
     case 'buscarUsuarios':
         $response = $data->buscarUsuarios($datos);
         break;
-        case 'editarUsuario':
-            $response = $data->editarUsuario($datos);
-            break;
+    case 'editarUsuario':
+        $response = $data->editarUsuario($datos);
+        break;
+    case 'desHabUsuario':
+        $response = $data->desHabUsuario($datos);
+        break;
 }
 
 file_put_contents('Log.txt', "Console: " . print_r($response, TRUE) . " \n", FILE_APPEND);

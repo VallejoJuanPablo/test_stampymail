@@ -76,3 +76,16 @@
         <footer class="modal-footer"></footer>
     </div>
 </div>
+
+<div class="modal-container" id="myModalEspera">
+    <div class="modal-dialog">
+        <div class="modal-header">
+          
+        </div>
+        <img src="./img/dino.gif" class="dino" alt="Flowers in Chania">
+        <div class="modal-content">
+          Espere por favor...
+        </div>
+        <footer class="modal-footer"></footer>
+    </div>
+</div>

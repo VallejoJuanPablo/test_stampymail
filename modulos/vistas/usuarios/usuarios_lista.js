@@ -1,17 +1,17 @@
 $(document).ready(function () {
     const myModalEditarUsuario = document.getElementById('myModalEditarUsuario');
     const myModalVerUsuario = document.getElementById('myModalVerUsuario');
+    const myModalEspera = document.getElementById('myModalEspera');
     const btnClosemyModalVerUsuario = document.getElementById('btnClosemyModalVerUsuario');
     const btnClosemyModalEditarUsuario = document.getElementById('btnClosemyModalEditarUsuario');
     const btnEditarmyModalEditarUsuario = document.getElementById('btnEditarmyModalEditarUsuario');
-
-
-    const $inputBusqueda = document.querySelector("#input-busqueda"),
-        $btnBuscar = document.querySelector("#btn-buscar-usuario");
+    const btnBuscar = document.querySelector("#btn-buscar-usuario");
+    const $inputBusqueda = document.querySelector("#input-busquedas");
 
     onInit();
 
     function onInit() {
+        console.log($inputBusqueda.value);
         getUser_com();
     }
 
@@ -22,7 +22,34 @@ $(document).ready(function () {
     //##########################################################################
     //---------------FUNCIONES SIMPLES PARA RELLENAR FORMULARIO-----------------
     //##########################################################################
+    async function buscarUsuario_com() {
+        const datos = {
+            backend: 'buscarUsuarios', inputBusqueda: document.querySelector("#input-busquedas").value,
 
+        };
+        // Codificamos...
+        const _datos = JSON.stringify(datos);
+        console.log(_datos);
+        // Enviamos
+        try {
+            const respuestaRaw = await fetch("core/userController.php", {
+                method: "POST",
+                body: _datos,
+            });
+            // El servidor nos responderá con JSON
+            const respuesta = await respuestaRaw.json();
+            if (respuesta) {
+                limpiar_table();
+                console.log(respuesta);
+                getUser_fin(respuesta);
+            } else {
+                console.log("nara");
+            }
+        } catch (e) {
+            // En caso de que haya un error
+            console.log(e);
+        }
+    }
 
     async function getUser_com() {
         const datos = {
@@ -48,9 +75,6 @@ $(document).ready(function () {
             console.log(e);
         }
     }
-
-
-
 
     function getUser_fin(datos) {
         let table = document.querySelector("#lista_usuarios");
@@ -149,68 +173,10 @@ $(document).ready(function () {
         myModalEditarUsuario.classList.add('show');
     }
 
-    function limpiar_table(datos) {
-        let $table = document.querySelector("#lista_usuarios");
-        $table.innerHTML = "";
-    }
-
-    $("#lista_usuarios").on("click", "button", function (e) {
-        e.preventDefault();
-        var opt = $(this).data("opt");
-        var id = $(this).val();
-        console.log(id);
-        //$("#myAlert").modal({ backdrop: "static", keyboard: false });
-        //$("#myAlert").modal("show");
-        switch (opt) {
-            case 3:
-                var val = $(this).data("val");
-                console.log(id);
-                getUser_cod_com(id);
-                break;
-            case 2:
-                getUser_cod2_com(id);
-                break;
-            case 1:
-                getUser_cod_com(id);
-                break;
-            default:
-                break;
-        }
-    });
-
-
-    $btnBuscar.onclick = async () => {
+    async function editarUsuario_com() {
         const datos = {
-            backend: 'buscarUsuarios',inputBusqueda: $inputBusqueda.value,
-          
-        };
-        // Codificamos...
-        const _datos = JSON.stringify(datos);
-        // Enviamos
-        try {
-            const respuestaRaw = await fetch("core/userController.php", {
-                method: "POST",
-                body: _datos,
-            });
-            // El servidor nos responderá con JSON
-            const respuesta = await respuestaRaw.json();
-            if (respuesta) {
-                limpiar_table();
-                getUser_fin(respuesta);
-            } else {
-                console.log("nara");
-            }
-        } catch (e) {
-            // En caso de que haya un error
-            console.log(e);
-        }
-
-    };
-
-    btnEditarmyModalEditarUsuario.onclick = async () => {
-        const datos = {
-            backend: 'editarUsuario', 
-             id: document.getElementById("eid").value,
+            backend: 'editarUsuario',
+            id: document.getElementById("eid").value,
             nombre: document.getElementById("enombre").value,
             apellido: document.getElementById("eapellido").value,
             email: document.getElementById("eemail").value,
@@ -233,10 +199,7 @@ $(document).ready(function () {
             // El servidor nos responderá con JSON
             const respuesta = await respuestaRaw.json();
             if (respuesta) {
-                
-                limpiar_table();
-                getUser_com();
-                myModalEditarUsuario.classList.remove('show');
+                editarUsuario_fin();
             } else {
                 console.log("nara");
             }
@@ -245,17 +208,92 @@ $(document).ready(function () {
             console.log(e);
         }
 
-    };
+    }
+
+    function editarUsuario_fin() {
+        limpiar_table();
+        getUser_com();
+        myModalEditarUsuario.classList.remove('show');
+    }
+
+    async function desHabUsuario_com(id, val) {
+        const datos = {
+            backend: 'desHabUsuario', id: id, val: val
+        };
+        // Codificamos...
+        const _datos = JSON.stringify(datos);
+        // Enviamos
+        try {
+            const respuestaRaw = await fetch("core/userController.php", {
+                method: "POST",
+                body: _datos,
+            });
+            // El servidor nos responderá con JSON
+            const respuesta = await respuestaRaw.json();
+            if (respuesta) {
+                desHabUsuario_fin(respuesta);
+            } else {
+                console.log("nara");
+            }
+        } catch (e) {
+            // En caso de que haya un error
+            console.log(e);
+        }
+    }
+
+    async function desHabUsuario_fin(datos) {
+        limpiar_table();
+        getUser_com();
+        await sleep(1000);
+        myModalEspera.classList.remove('show');
+    }
+
+    function limpiar_table(datos) {
+        let $table = document.querySelector("#lista_usuarios");
+        $table.innerHTML = "";
+    }
+
+    $("#lista_usuarios").on("click", "button", function (e) {
+        e.preventDefault();
+        var opt = $(this).data("opt");
+        var id = $(this).val();
+        switch (opt) {
+            case 3:
+                getUser_cod_com(id);
+                break;
+            case 2:
+                getUser_cod2_com(id);
+                break;
+            case 1:
+                var val = $(this).data("val");
+                console.log(val);
+                myModalEspera.classList.add('show');
+                desHabUsuario_com(id, val);
+                break;
+            default:
+                break;
+        }
+    });
 
 
-
+    btnBuscar.addEventListener('click', () => {
+        buscarUsuario_com();
+    });
+    btnEditarmyModalEditarUsuario.addEventListener('click', () => {
+        editarUsuario_com();
+    });
 
     btnClosemyModalVerUsuario.addEventListener('click', () => {
         myModalVerUsuario.classList.remove('show');
     });
 
+
     btnClosemyModalEditarUsuario.addEventListener('click', () => {
         myModalEditarUsuario.classList.remove('show');
     });
 
+
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
 });
