@@ -10,8 +10,8 @@ class DB{
     public function __construct(){
         $this->host     = 'localhost';
         $this->db       = 'db_test_stampymail';
-        $this->user     = 'dbadmin';
-        $this->password = "dbavenger";
+        $this->user     = 'root';
+        $this->password = '';
         $this->charset  = 'utf8mb4';
     }
 

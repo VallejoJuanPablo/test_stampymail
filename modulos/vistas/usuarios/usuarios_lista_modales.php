@@ -28,8 +28,6 @@
                 <input type="password" id="password" disabled name="Password" placeholder="Password">
                 <label for="cpassword">Confirmar Password</label>
                 <input type="password" id="cpassword" disabled name="Confirmar Password" placeholder="Confirmar Password">
-
-
             </div>
         </section>
         <footer class="modal-footer"></footer>
@@ -62,8 +60,9 @@
                     <option value="2">Usuario</option>
                 </select>
                 <label for="euser">Usuario</label>
-                <input type="text" id="euser" name="Usuario" placeholder="Usuario">
-                <label for="epassword">Password</label>
+                <input type="text" id="euser" name="Usuario" placeholder="Usuario"><br>
+                <h5>Para no modificar password dejar los siguientes valores en blanco.</h5>
+                <label for="epassword">Password</label>  
                 <input type="password" id="epassword" name="Password" placeholder="Password">
                 <label for="ecpassword">Confirmar Password</label>
                 <input type="password" id="ecpassword" name="Confirmar Password" placeholder="Confirmar Password">

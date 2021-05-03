@@ -1,7 +1,7 @@
   <div class="main-content">
       <main>
           <h2 class="dash-title">Lista de Usuarios</h2>
-          <section class="recent">
+          <section class="mt-2">
               <div class="user-grid">
                   <div class="user-card">
                       <div class="header-user-card">
@@ -15,7 +15,7 @@
                   </div>
               </div>
           </section>
-          <section class="recent">
+          <section class="mt-2">
               <div class="user-grid">
                   <div class="user-card">
                       <div class="header-user-card">

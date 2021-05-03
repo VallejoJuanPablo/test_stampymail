@@ -1,0 +1,20 @@
+
+Lista de Usuarios: 
+user/pass
+user2/pass
+user3/pass
+user4/pass
+
+Configuracion de base de datos:
+
+core/db.php
+
+/*
+ public function __construct(){
+        $this->host     = 'localhost';
+        $this->db       = 'db_test_stampymail';
+        $this->user     = 'root';
+        $this->password = '';
+        $this->charset  = 'utf8mb4';
+    }
+*/

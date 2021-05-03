@@ -15,4 +15,3 @@ if (!(array_key_exists($p, $pages))) {
     include_once $data_pages['url'];
     include_once './modulos/comunes/js.php';
     include_once './modulos/comunes/footer.php';
-?>

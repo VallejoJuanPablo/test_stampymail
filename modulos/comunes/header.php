@@ -1,7 +1,6 @@
 
 <header >
     <div class="search-wrapper">
-       
     </div>
     <div class="social-icons">
         <span><i class="fa fa-bell"></i></span>
