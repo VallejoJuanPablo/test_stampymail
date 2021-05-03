@@ -5,9 +5,11 @@ date_default_timezone_set('America/Argentina/Buenos_Aires');
 $paramUrl = $_REQUEST;
 $p = (isset($paramUrl['p']) ? $paramUrl['p'] : 'home');
 $data_pages = $pages[$p];
+if (!(array_key_exists($p, $pages))) {
+    $data_pages = $pages['home'];
+}
 
     include_once './modulos/comunes/head.php';
- 
     include_once './modulos/comunes/nav.php';
     include_once './modulos/comunes/header.php';
     include_once $data_pages['url'];

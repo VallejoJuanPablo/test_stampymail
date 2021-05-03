@@ -142,7 +142,7 @@ class User extends DB
     */
     public function checkUsername($user, $id)
     {
-        $query = $this->connect()->prepare('SELECT * FROM usuarios WHERE user = :user AND id = :id');
+        $query = $this->connect()->prepare('SELECT * FROM usuarios WHERE user = :user AND id != :id');
         $query->execute(['user' => $user, 'id' => $id]);
 
         if ($query->rowCount()) {
