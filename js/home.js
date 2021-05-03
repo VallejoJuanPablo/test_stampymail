@@ -1,22 +1,52 @@
-// Get the Sidebar
-var mySidebar = document.getElementById("mySidebar");
+$(document).ready(function () {
+  
 
-// Get the DIV with overlay effect
-var overlayBg = document.getElementById("myOverlay");
+    onInit();
 
-// Toggle between showing and hiding the sidebar, and add overlay effect
-function w3_open() {
-  if (mySidebar.style.display === 'block') {
-    mySidebar.style.display = 'none';
-    overlayBg.style.display = "none";
-  } else {
-    mySidebar.style.display = 'block';
-    overlayBg.style.display = "block";
-  }
-}
+    function onInit() {
+      
+        contarUsuarios_com();
+    }
 
-// Close the sidebar with the close button
-function w3_close() {
-  mySidebar.style.display = "none";
-  overlayBg.style.display = "none";
-}
+    //##########################################################################
+    //---------------------------FUNCIONES DE ROL-------------------------------
+    //##########################################################################
+
+    //##########################################################################
+    //---------------FUNCIONES SIMPLES PARA RELLENAR FORMULARIO-----------------
+    //##########################################################################
+    async function contarUsuarios_com() {
+        const datos = {
+            backend: 'contarUsuarios',
+        };
+        // Codificamos...
+        const _datos = JSON.stringify(datos);
+        console.log(_datos);
+        // Enviamos
+        try {
+            const respuestaRaw = await fetch("core/userController.php", {
+                method: "POST",
+                body: _datos,
+            });
+            // El servidor nos responderá con JSON
+            const respuesta = await respuestaRaw.json();
+            if (respuesta) {
+                contarUsuarios_fin(respuesta);
+            } else {
+                console.log("else");
+            }
+        } catch (e) {
+            // En caso de que haya un error
+            console.log(e);
+        }
+    }
+
+    async function contarUsuarios_fin(datos) {
+        let h4 = document.querySelector("#cantidadUsuarios");
+      
+        h4.innerHTML = datos;
+    }
+
+
+
+});

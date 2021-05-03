@@ -1,4 +1,3 @@
-
 <div class="main-content">
     <main>
         <h2 class="dash-title">Nuevo Usuario</h2>
